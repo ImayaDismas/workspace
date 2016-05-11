@@ -1,0 +1,32 @@
+package scramblies;
+
+public class Scramblies {
+	public static boolean scramble(String str1, String str2) {
+	    
+        // your code
+        char[] charArray1 = str1.toCharArray();
+        char[] charArray2 = str2.toCharArray();
+        boolean result = false;
+        for(int i=0; i < charArray1.length;i++)
+        {
+          for(int j=0; j < charArray2.length; j++)
+          {
+            if(charArray1[i] == charArray2[j])
+            {
+              result = true;
+            }
+          }
+        }
+        
+        return result;
+    }
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println(Scramblies.scramble("rkqodlw","world"));
+		System.out.println(Scramblies.scramble("cedewaraaossoqqyt","codewars"));
+		System.out.println(Scramblies.scramble("katas","steak"));
+		System.out.println(Scramblies.scramble("scriptjavx","javascript"));
+
+	}
+
+}

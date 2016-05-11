@@ -1,0 +1,8 @@
+AbstractTextEditor.Color.Background.SystemDefault=false
+AbstractTextEditor.Color.FindScope=0,0,0
+eclipse.preferences.version=1
+lineNumberColor=0,0,255
+lineNumberRuler=true
+overviewRuler_migration=migrated_3.1
+printMargin=true
+printMarginColor=77,77,77

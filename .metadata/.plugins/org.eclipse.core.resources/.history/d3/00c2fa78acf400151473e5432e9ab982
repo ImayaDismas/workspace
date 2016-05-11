@@ -1,0 +1,27 @@
+package abbreviator;
+public class Abbreviator {
+
+	  public static String abbreviate(String string) {
+	    // ...
+		 String input = " ";
+		String[] words = string.split(" ");
+		String str = words[0];
+		String str1 = words[1];
+	    int size = str.length();
+	    int size1 = str1.length();
+	    int btn = size - 2;
+	    int btn1 = size1 - 2;
+	    for(int i = 0; i < words.length; i++){
+	    	input = str.charAt(0) + Integer.toString(btn) + str.charAt(size-1);
+	    	input = str1.charAt(0) + Integer.toString(btn1) + str1.charAt(size-1);
+	    }
+	    return input;
+	    
+	  }
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println(Abbreviator.abbreviate("ThrowTheKitchenSinkAtEm"));
+	}
+
+}

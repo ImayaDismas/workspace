@@ -1,0 +1,13 @@
+package digital_root;
+
+public class digital_root {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

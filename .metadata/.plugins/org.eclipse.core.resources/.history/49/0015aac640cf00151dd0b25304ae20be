@@ -1,0 +1,17 @@
+package abbreviator;
+public class Abbreviator {
+
+	  public static String abbreviate(String string) {
+	    // ...
+	    int size = string.length();
+	    int btn = size - 2;
+	    String input = string.charAt(0) + Integer.toString(btn) + string.charAt(size-1);
+	    return input;
+	  }
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println(abbreviate("internationalization of the boys"));
+	}
+
+}

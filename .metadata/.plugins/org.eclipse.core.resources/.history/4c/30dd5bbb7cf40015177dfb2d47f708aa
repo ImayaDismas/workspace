@@ -1,0 +1,32 @@
+package humanReadableTime;
+
+public class HumanReadableTime {
+	public void makeReadable(int seconds) {
+	    int second =0;
+	    int minute = 0;
+	    int min = 0;
+	    int hour = 0;
+	    
+	    second = seconds % 60;
+	    min = seconds / 60;
+	    minute = min % 60;
+	    hour = min / 60;
+	    int[] ArrayTime = {hour, minute , second};
+	    System.out.print(ArrayTime[0]);
+	    System.out.print(ArrayTime[1]);
+	    System.out.println(ArrayTime[2]);
+	    
+	    
+//	    return Integer.toString((hour + ":" + minute + ":" + second));
+	     
+	  }
+
+	
+	public static void main(String[] args) {
+		HumanReadableTime obj = new HumanReadableTime();
+		obj.makeReadable(359999);
+//		System.out.println(obj.makeReadable(0));
+
+	}
+
+}

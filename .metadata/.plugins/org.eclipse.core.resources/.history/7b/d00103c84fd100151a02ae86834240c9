@@ -1,0 +1,13 @@
+// Using Java, remove duplicate characters in a given string keeping only the first occurrences. 
+// For example, if the input is ‘tree traversal’ the output will be "tre avsl". Enjoy:-)
+package removeduplicate;
+
+public class removeDuplicate {
+
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
