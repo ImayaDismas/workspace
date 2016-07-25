@@ -1,0 +1,19 @@
+package abbreviator;
+public class Abbreviator {
+
+	  public static String abbreviate(String string) {
+	    // ...
+		String[] words = string.split(" ");
+		String str = words[0];
+	    int size = str.length();
+	    int btn = size - 2;
+	    String input = str.charAt(0) + Integer.toString(btn) + str.charAt(size-1);
+	    return input;
+	  }
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println(abbreviate("ThrowTheKitchen SinkAtEm"));
+	}
+
+}

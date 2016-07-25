@@ -1,0 +1,20 @@
+package charProblem;
+
+public class CharProblem {
+
+	/**
+	 * @param args
+	 */
+	public static int howOld(final String herOld) {
+		  
+		  char[] charArray = herOld.toCharArray();
+		  int age = (int)charArray[0];
+		  //your code here, return correct age as int ; )
+		  return age;
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println(CharProblem.howOld("5 years old"));
+	}
+
+}

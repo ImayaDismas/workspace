@@ -1,0 +1,18 @@
+package doublechar;
+
+public class DoubleChar {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String one = "%^&*(";
+		for (int i=0; i < one.length(); i++)
+		{
+			System.out.print(one.charAt(i) + "" + one.charAt(i));
+			//System.out.print(one.charAt(i));
+		}
+	}
+
+}

@@ -1,4 +1,16 @@
+<<<<<<< HEAD
 eclipse.preferences.version=1
 org.eclipse.debug.ui.PREF_LAUNCH_PERSPECTIVES=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\n<launchPerspectives/>\n
+=======
+Console.highWaterMark=88000
+StringVariablePreferencePage=143,119,119,604,
+eclipse.preferences.version=1
+org.eclipse.debug.ui.PREF_CHANGED_VALUE_BACKGROUND=0,0,0
+org.eclipse.debug.ui.PREF_LAUNCH_PERSPECTIVES=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\n<launchPerspectives/>\n
+org.eclipse.debug.ui.changedDebugElement=0,128,0
+org.eclipse.debug.ui.consoleBackground=0,0,0
+org.eclipse.debug.ui.inColor=0,0,255
+org.eclipse.debug.ui.outColor=0,128,0
+>>>>>>> a8130aea798be30c6705794387e36de366252997
 org.eclipse.debug.ui.save_dirty_editors_before_launch=always
 preferredTargets=default\:default|
