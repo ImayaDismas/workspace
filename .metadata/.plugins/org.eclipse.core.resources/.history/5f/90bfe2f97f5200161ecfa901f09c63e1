@@ -1,0 +1,21 @@
+package numberOfPaths;
+
+public class NumberOfPaths {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.print(numberOfPaths(2, 2));
+
+	}
+	// Returns count of possible paths to reach cell at row number m and column
+	// number n from the topmost leftmost cell (cell at 1, 1)
+	public static int  numberOfPaths(int x, int y)
+	{
+		if(x == 1 || y == 1) return 1;
+		return numberOfPaths(x-1, y) + numberOfPaths(x, y-1);
+	}
+
+}

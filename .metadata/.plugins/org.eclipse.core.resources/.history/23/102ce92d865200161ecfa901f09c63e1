@@ -1,0 +1,34 @@
+package numberOfPaths;
+
+public class NumberOfPaths {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+		System.out.print(numberOfPaths(3));
+
+	}
+	public static int  numberOfPaths(int x)
+	{
+		int result;
+		if(x < 1)
+			{
+			System.out.print("If there are no squares there can't be any routes");
+				return 0;
+			}
+		else if (x==1)return 2;
+		
+		result = recursion(2*x)/(recursion(x)*recursion(x)); 
+		
+		return result;
+	}
+	
+	public static int  recursion(int x)
+	{
+		if(x == 1) return 1;
+		return x * recursion(x-1);
+	}
+
+}
